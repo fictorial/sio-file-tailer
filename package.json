@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "View a server side tailed log file in your browser.",
   "main": "index.js",
-  "author": "Brian Hammond <brian@fictorial.co>",
+  "author": "Brian Hammond <brian@fictorial.com>",
   "license": "MIT",
   "dependencies": {
     "socket.io": "^2.1.1"
