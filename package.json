@@ -1,0 +1,11 @@
+{
+  "name": "sio-log-tailer",
+  "version": "1.0.0",
+  "description": "Socket.io server and web client that emits messages of tailed UTF-8 files",
+  "main": "index.js",
+  "author": "Brian Hammond <brian@theexpedition.co>",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
