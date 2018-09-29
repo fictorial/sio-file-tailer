@@ -1,10 +1,10 @@
 {
   "name": "sio-log-tailer",
-  "version": "1.0.3",
-  "description": "Socket.io server and web client that emits messages of tailed UTF-8 files",
+  "version": "1.0.4",
+  "description": "View a server side tailed log file in your browser.",
   "main": "index.js",
-  "author": "Brian Hammond <brian@theexpedition.co>",
-  "license": "ISC",
+  "author": "Brian Hammond <brian@fictorial.co>",
+  "license": "MIT",
   "dependencies": {
     "socket.io": "^2.1.1"
   }
