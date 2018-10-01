@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 process.argv.slice(2).forEach(keyAndPath => {
   let [ key, path ] = keyAndPath.split('=')
   require('child_process').spawn('tail', ['-f', path]).stdout.on('data', data => io.emit('line', { key, data: data.toString('utf8').trim() }))
